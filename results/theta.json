@@ -1,0 +1,42 @@
+{
+  "latency": {
+    "t_launch": 3.00746310042239e-05,
+    "bw": 193937780507.34647,
+    "p": 30816044571641.684
+  },
+  "energy": {
+    "e_kernel": 0.0,
+    "e_flop": 4.586684852713452e-12,
+    "e_byte": 2.487738492871301e-24
+  },
+  "latency_mape_cal_pct": 12.019359058225229,
+  "energy_mape_cal_pct": 53.54829248428407,
+  "energy_n_points_cal": 17,
+  "latency_mape_val_pct": 11.88200512743531,
+  "energy_mape_val_pct": 35.62611958959818,
+  "energy_n_points_val": 24,
+  "n_points": {
+    "cal": 60,
+    "val": 61
+  },
+  "hardware": {
+    "gpu": "NVIDIA H100",
+    "gpu_uuid": "823d01b8-34e4-773a-c65e-0223be4a4c3a",
+    "driver_cuda": "12.8",
+    "torch": "2.8.0+cu128",
+    "seed": 42,
+    "mem_limit_gb": 2.0,
+    "extra_s": [
+      48,
+      112,
+      448,
+      496
+    ],
+    "extra_b": [
+      141,
+      126,
+      115
+    ],
+    "date": "2026-09-26 22:11:50"
+  }
+}

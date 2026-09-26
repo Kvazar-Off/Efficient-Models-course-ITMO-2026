@@ -1,0 +1,188 @@
+лимит памяти процесса: 2.0 ГБ (fraction=0.01959 от 102.1 ГБ)
+GPU: NVIDIA H100
+дополнительные S (валидация): [48, 112, 448, 496]
+дополнительные B (валидация): [141, 126, 115]
+конфигураций к прогону: 132
+S=  32 B=   1 cal t=   0.614 ms  mem=     42.7 MB E=   0.000 mJ
+S=  32 B=   2 cal t=   0.581 ms  mem=     42.9 MB E=   0.000 mJ
+S=  32 B=   4 cal t=   0.599 ms  mem=     43.1 MB E=   0.000 mJ
+S=  32 B=   8 cal t=   0.598 ms  mem=     43.5 MB E=   0.000 mJ
+S=  32 B=  16 cal t=   0.632 ms  mem=     44.4 MB E=   0.000 mJ
+S=  32 B=  32 cal t=   0.682 ms  mem=     46.2 MB E=   0.000 mJ
+S=  32 B=  64 cal t=   0.389 ms  mem=     42.2 MB E=   0.000 mJ
+S=  32 B= 115 val t=   0.726 ms  mem=     59.1 MB E=   6.486 mJ
+S=  32 B= 126 val t=   0.624 ms  mem=     61.2 MB E=   1.668 mJ
+S=  32 B= 128 cal t=   0.698 ms  mem=     61.5 MB E=   0.000 mJ
+S=  32 B= 141 val t=   0.606 ms  mem=     63.9 MB E=   9.844 mJ
+S=  32 B= 256 cal t=   0.635 ms  mem=     85.9 MB E=   0.000 mJ
+S=  48 B=   1 val t=   0.562 ms  mem=     42.8 MB E=   0.000 mJ
+S=  48 B=   2 val t=   0.599 ms  mem=     43.0 MB E=   0.000 mJ
+S=  48 B=   4 val t=   0.586 ms  mem=     43.3 MB E=   0.000 mJ
+S=  48 B=   8 val t=   0.599 ms  mem=     43.9 MB E=   0.000 mJ
+S=  48 B=  16 val t=   0.609 ms  mem=     45.1 MB E=   0.000 mJ
+S=  48 B=  32 val t=   0.548 ms  mem=     42.7 MB E=   1.706 mJ
+S=  48 B=  64 val t=   0.566 ms  mem=     47.7 MB E=   0.000 mJ
+S=  48 B= 115 val t=   0.665 ms  mem=     65.0 MB E=   2.719 mJ
+S=  48 B= 126 val t=   0.630 ms  mem=     67.0 MB E=   0.000 mJ
+S=  48 B= 128 val t=   0.601 ms  mem=     67.4 MB E=   0.000 mJ
+S=  48 B= 141 val t=   0.650 ms  mem=     70.4 MB E=   0.000 mJ
+S=  48 B= 256 val t=   1.135 ms  mem=     96.9 MB E=   0.000 mJ
+S=  64 B=   1 cal t=   0.588 ms  mem=     56.5 MB E=   0.000 mJ
+S=  64 B=   2 cal t=   0.611 ms  mem=     56.6 MB E=   0.000 mJ
+S=  64 B=   4 cal t=   0.581 ms  mem=     57.5 MB E=   0.000 mJ
+S=  64 B=   8 cal t=   0.403 ms  mem=     59.9 MB E=   0.000 mJ
+S=  64 B=  16 cal t=   0.524 ms  mem=     42.2 MB E=   0.074 mJ
+S=  64 B=  32 cal t=   0.536 ms  mem=     46.6 MB E=   7.362 mJ
+S=  64 B=  64 cal t=   0.745 ms  mem=     56.3 MB E=   0.000 mJ
+S=  64 B= 115 val t=   1.053 ms  mem=    119.7 MB E=   1.467 mJ
+S=  64 B= 126 val t=   1.030 ms  mem=    127.6 MB E=   4.019 mJ
+S=  64 B= 128 cal t=   1.018 ms  mem=    128.1 MB E=   7.359 mJ
+S=  64 B= 141 val t=   1.343 ms  mem=    138.2 MB E=  14.379 mJ
+S=  64 B= 256 cal t=   1.838 ms  mem=    218.3 MB E=  38.575 mJ
+S= 112 B=   1 val t=   0.550 ms  mem=     56.8 MB E=   0.000 mJ
+S= 112 B=   2 val t=   0.580 ms  mem=     57.2 MB E=   0.000 mJ
+S= 112 B=   4 val t=   0.610 ms  mem=     58.7 MB E=   0.000 mJ
+S= 112 B=   8 val t=   0.500 ms  mem=     44.5 MB E=   0.000 mJ
+S= 112 B=  16 val t=   0.525 ms  mem=     51.4 MB E=  11.007 mJ
+S= 112 B=  32 val t=   1.157 ms  mem=     66.0 MB E=   0.000 mJ
+S= 112 B=  64 val t=   1.436 ms  mem=    102.5 MB E=   5.533 mJ
+S= 112 B= 115 val t=   2.479 ms  mem=    153.9 MB E=   0.000 mJ
+S= 112 B= 126 val t=   2.697 ms  mem=    165.9 MB E=  43.388 mJ
+S= 112 B= 128 val t=   2.510 ms  mem=    167.8 MB E=   0.000 mJ
+S= 112 B= 141 val t=   2.936 ms  mem=    181.1 MB E=  91.085 mJ
+S= 112 B= 256 val t=   5.390 ms  mem=    296.1 MB E= 100.356 mJ
+S= 128 B=   1 cal t=   0.560 ms  mem=    109.6 MB E=   0.000 mJ
+S= 128 B=   2 cal t=   0.603 ms  mem=    110.5 MB E=  10.133 mJ
+S= 128 B=   4 cal t=   0.507 ms  mem=     42.2 MB E=   0.000 mJ
+S= 128 B=   8 cal t=   0.498 ms  mem=     46.6 MB E=   0.000 mJ
+S= 128 B=  16 cal t=   0.614 ms  mem=     56.3 MB E=   0.000 mJ
+S= 128 B=  32 cal t=   1.348 ms  mem=    160.6 MB E=  28.302 mJ
+S= 128 B=  64 cal t=   2.403 ms  mem=    214.1 MB E=   0.000 mJ
+S= 128 B= 115 val t=   4.296 ms  mem=    355.6 MB E= 116.518 mJ
+S= 128 B= 126 val t=   4.188 ms  mem=    384.7 MB E=  40.450 mJ
+S= 128 B= 128 cal t=   5.044 ms  mem=    390.2 MB E= 171.410 mJ
+S= 128 B= 141 val t=   5.188 ms  mem=    427.2 MB E=  64.326 mJ
+S= 128 B= 256 cal t=   9.973 ms  mem=    742.6 MB E= 436.124 mJ
+S= 224 B=   1 cal t=   0.577 ms  mem=    110.8 MB E=   0.000 mJ
+S= 224 B=   2 cal t=   0.499 ms  mem=     44.5 MB E=   0.000 mJ
+S= 224 B=   4 cal t=   0.630 ms  mem=     51.4 MB E=   0.668 mJ
+S= 224 B=   8 cal t=   1.065 ms  mem=     66.0 MB E=   0.228 mJ
+S= 224 B=  16 cal t=   1.617 ms  mem=    153.3 MB E=  29.909 mJ
+S= 224 B=  32 cal t=   2.779 ms  mem=    200.3 MB E=  23.740 mJ
+S= 224 B=  64 cal t=   7.291 ms  mem=    291.9 MB E= 278.105 mJ
+S= 224 B= 115 val t=  10.755 ms  mem=    494.4 MB E= 393.899 mJ
+S= 224 B= 126 val t=  12.470 ms  mem=    538.0 MB E= 819.538 mJ
+S= 224 B= 128 cal t=  13.668 ms  mem=    546.0 MB E= 508.489 mJ
+S= 224 B= 141 val t=  14.138 ms  mem=    597.6 MB E= 434.545 mJ
+S= 224 B= 256 cal t=  26.646 ms  mem=   1054.0 MB E=1711.364 mJ
+S= 256 B=   1 cal t=   0.500 ms  mem=     42.2 MB E=   0.000 mJ
+S= 256 B=   2 cal t=   0.493 ms  mem=     46.6 MB E=   0.000 mJ
+S= 256 B=   4 cal t=   0.709 ms  mem=     56.3 MB E=   3.344 mJ
+S= 256 B=   8 cal t=   1.686 ms  mem=    363.5 MB E=  70.146 mJ
+S= 256 B=  16 cal t=   3.201 ms  mem=    416.5 MB E= 230.992 mJ
+S= 256 B=  32 cal t=   5.733 ms  mem=    522.4 MB E= 297.793 mJ
+S= 256 B=  64 cal t=  11.342 ms  mem=    734.2 MB E= 348.386 mJ
+S= 256 B= 115 val t=  19.857 ms  mem=   1289.0 MB E= 848.863 mJ
+S= 256 B= 126 val t=  19.203 ms  mem=    599.2 MB E= 695.368 mJ
+S= 256 B= 128 cal t=  18.686 ms  mem=    608.1 MB E= 575.509 mJ
+S= 256 B= 141 val t=  19.026 ms  mem=    666.1 MB E= 517.922 mJ
+S= 256 B= 256 cal t=  33.753 ms  mem=   1178.6 MB E=1935.477 mJ
+S= 384 B=   1 cal t=   0.606 ms  mem=     47.7 MB E=   0.000 mJ
+S= 384 B=   2 cal t=   0.898 ms  mem=     57.8 MB E=   0.000 mJ
+S= 384 B=   4 cal t=   1.312 ms  mem=     77.8 MB E=   0.000 mJ
+S= 384 B=   8 cal t=   2.550 ms  mem=    117.9 MB E=   0.000 mJ
+S= 384 B=  16 cal t=   4.529 ms  mem=    198.1 MB E= 189.217 mJ
+S= 384 B=  32 cal t=  10.024 ms  mem=    358.6 MB E= 337.270 mJ
+S= 384 B=  64 cal t=  19.724 ms  mem=    679.4 MB E=1116.860 mJ
+S= 384 B= 115 val t=  39.993 ms  mem=   1190.8 MB E=1640.475 mJ
+S= 384 B= 126 val t=  43.231 ms  mem=   1301.1 MB E= 553.836 mJ
+S= 384 B= 128 cal t=  46.272 ms  mem=   1321.2 MB E=1379.791 mJ
+S= 384 B= 141 val t=  41.116 ms  mem=   1452.3 MB E=1276.518 mJ
+Traceback (most recent call last):
+  File "/data/tsa/itmo/efficient_NN/hw_1/hw1/measure.py", line 262, in <module>
+    main()
+  File "/data/tsa/itmo/efficient_NN/hw_1/hw1/measure.py", line 249, in main
+    writer.writerow(row)
+  File "/usr/lib/python3.12/csv.py", line 164, in writerow
+    return self.writer.writerow(self._dict_to_list(rowdict))
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/csv.py", line 159, in _dict_to_list
+    raise ValueError("dict contains fields not in fieldnames: "
+ValueError: dict contains fields not in fieldnames: 'power_mean_W'
+лимит памяти процесса: 2.0 ГБ (fraction=0.01959 от 102.1 ГБ)
+GPU: NVIDIA H100
+дополнительные S (валидация): [48, 112, 448, 496]
+дополнительные B (валидация): [141, 126, 115]
+resume: 95 точек уже измерено, осталось 37
+конфигураций к прогону: 37
+S= 384 B= 256 cal OOM
+S= 448 B=   1 val t=   0.547 ms  mem=     51.4 MB E=   0.000 mJ
+S= 448 B=   2 val t=   1.061 ms  mem=     66.0 MB E=   0.000 mJ
+S= 448 B=   4 val t=   1.562 ms  mem=     92.3 MB E=   0.000 mJ
+S= 448 B=   8 val t=   3.113 ms  mem=    146.9 MB E=  48.819 mJ
+S= 448 B=  16 val t=   6.144 ms  mem=    256.1 MB E= 217.614 mJ
+S= 448 B=  32 val t=  13.916 ms  mem=    474.4 MB E= 754.692 mJ
+S= 448 B=  64 val t=  28.792 ms  mem=    911.2 MB E= 838.469 mJ
+S= 448 B= 115 val OOM
+S= 448 B= 126 val OOM
+S= 448 B= 128 val OOM
+S= 448 B= 141 val OOM
+S= 448 B= 256 val OOM
+S= 496 B=   1 val t=   0.750 ms  mem=     54.4 MB E=   0.000 mJ
+S= 496 B=   2 val t=   1.060 ms  mem=     72.1 MB E=   0.000 mJ
+S= 496 B=   4 val t=   1.725 ms  mem=    104.6 MB E= 124.772 mJ
+лимит памяти процесса: 2.0 ГБ (fraction=0.01959 от 102.1 ГБ)
+GPU: NVIDIA H100
+дополнительные S (валидация): [48, 112, 448, 496]
+дополнительные B (валидация): [141, 126, 115]
+resume: 84 точек уже измерено, осталось 48
+конфигураций к прогону: 48
+S= 384 B=   1 cal t=   0.440 ms  mem=     47.7 MB E=   0.000 mJ
+S= 384 B=   2 cal t=   0.870 ms  mem=     57.8 MB E=   0.000 mJ
+S= 384 B=   4 cal t=   1.297 ms  mem=     77.8 MB E=   0.519 mJ
+S= 384 B=   8 cal t=   2.246 ms  mem=    117.9 MB E=  23.057 mJ
+S= 384 B=  16 cal t=   4.565 ms  mem=    199.2 MB E=  89.728 mJ
+S= 384 B=  32 cal t=   9.823 ms  mem=    358.6 MB E= 180.424 mJ
+S= 384 B=  64 cal t=  19.901 ms  mem=    679.4 MB E= 618.907 mJ
+S= 384 B= 115 val t=  32.152 ms  mem=   1192.0 MB E= 902.974 mJ
+S= 384 B= 126 val t=  40.744 ms  mem=   1303.0 MB E=2288.784 mJ
+S= 384 B= 128 cal t=  45.010 ms  mem=   1321.2 MB E=2637.922 mJ
+S= 384 B= 141 val t=  50.216 ms  mem=   1452.4 MB E=1394.743 mJ
+S= 384 B= 256 cal OOM
+S= 448 B=   1 val t=   0.595 ms  mem=     51.4 MB E=   0.000 mJ
+S= 448 B=   2 val t=   0.976 ms  mem=     66.0 MB E=   0.000 mJ
+S= 448 B=   4 val t=   1.665 ms  mem=     92.3 MB E=   0.000 mJ
+S= 448 B=   8 val t=   2.948 ms  mem=    147.9 MB E= 106.462 mJ
+S= 448 B=  16 val t=   6.656 ms  mem=    257.1 MB E= 270.662 mJ
+S= 448 B=  32 val t=  13.656 ms  mem=    476.0 MB E= 564.910 mJ
+S= 448 B=  64 val t=  29.140 ms  mem=    912.2 MB E=1044.546 mJ
+S= 448 B= 115 val t=  50.833 ms  mem=   1607.2 MB E=1768.974 mJ
+S= 448 B= 126 val t=  51.778 ms  mem=   1758.4 MB E= 319.193 mJ
+S= 448 B= 128 val t=  59.990 ms  mem=   1784.6 MB E=4118.020 mJ
+S= 448 B= 141 val t=  69.639 ms  mem=   1962.9 MB E=3550.537 mJ
+S= 448 B= 256 val OOM
+S= 496 B=   1 val t=   0.849 ms  mem=     54.4 MB E=   0.000 mJ
+S= 496 B=   2 val t=   1.071 ms  mem=     73.1 MB E=  33.284 mJ
+S= 496 B=   4 val t=   1.933 ms  mem=    104.6 MB E=  11.146 mJ
+S= 496 B=   8 val t=   4.241 ms  mem=    171.5 MB E= 202.323 mJ
+S= 496 B=  16 val t=   9.575 ms  mem=    306.4 MB E= 557.111 mJ
+S= 496 B=  32 val t=  17.059 ms  mem=    573.0 MB E= 740.873 mJ
+S= 496 B=  64 val t=  32.264 ms  mem=   1108.4 MB E=1413.841 mJ
+S= 496 B= 115 val t=  70.388 ms  mem=   1962.9 MB E=2462.420 mJ
+S= 496 B= 126 val OOM
+S= 496 B= 128 val OOM
+S= 496 B= 141 val OOM
+S= 496 B= 256 val OOM
+S= 512 B=   1 cal t=   0.743 ms  mem=     56.3 MB E=   0.000 mJ
+S= 512 B=   2 cal t=   1.157 ms  mem=     73.4 MB E=  14.264 mJ
+S= 512 B=   4 cal t=   1.799 ms  mem=    109.0 MB E=  62.127 mJ
+S= 512 B=   8 cal t=   3.767 ms  mem=    180.3 MB E=  24.485 mJ
+S= 512 B=  16 cal t=   8.255 ms  mem=    322.9 MB E= 198.169 mJ
+S= 512 B=  32 cal t=  18.267 ms  mem=    608.1 MB E=1024.870 mJ
+S= 512 B=  64 cal t=  41.330 ms  mem=   1178.6 MB E= 585.280 mJ
+S= 512 B= 115 val OOM
+S= 512 B= 126 val OOM
+S= 512 B= 128 cal OOM
+S= 512 B= 141 val OOM
+S= 512 B= 256 cal OOM
+готово: results/measurements.csv
