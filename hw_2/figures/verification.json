@@ -1,0 +1,293 @@
+{
+  "checks": [
+    {
+      "run": "mnist_inv_seed0",
+      "status": "completed",
+      "updates": 9945,
+      "test_size": 10000,
+      "terminal_lr_used": 0.005958552920801206,
+      "metadata_note": "This source version recorded an unused generic final_lr default; used LR is lr_log.json.",
+      "final_acc": 99.03,
+      "recomputed_loss": 0.02829816266298294,
+      "accuracy_delta": 0.0
+    },
+    {
+      "run": "mnist_sc_seed0",
+      "status": "completed",
+      "updates": 1404,
+      "test_size": 10000,
+      "terminal_lr_used": 9.999999999992654e-07,
+      "metadata_note": null,
+      "final_acc": 99.23,
+      "recomputed_loss": 0.023579745590686797,
+      "accuracy_delta": 0.0
+    },
+    {
+      "run": "mnist_sc_cm_seed0",
+      "status": "completed",
+      "updates": 1404,
+      "test_size": 10000,
+      "terminal_lr_used": 9.999999999992654e-07,
+      "metadata_note": null,
+      "final_acc": 99.07,
+      "recomputed_loss": 0.02492506036758423,
+      "accuracy_delta": 0.0
+    },
+    {
+      "run": "r20_pc_seed0",
+      "status": "completed",
+      "updates": 80000,
+      "test_size": 10000,
+      "terminal_lr_used": 0.0035000000000000005,
+      "metadata_note": "This source version recorded an unused generic final_lr default; used LR is lr_log.json.",
+      "final_acc": 89.38,
+      "recomputed_loss": 0.41331494140625,
+      "accuracy_delta": 0.0
+    },
+    {
+      "run": "r20_clr_seed0",
+      "status": "completed",
+      "updates": 20000,
+      "test_size": 10000,
+      "terminal_lr_used": 0.10028999999999998,
+      "metadata_note": "This source version recorded an unused generic final_lr default; used LR is lr_log.json.",
+      "final_acc": 91.5,
+      "recomputed_loss": 0.3461376831054688,
+      "accuracy_delta": 0.0
+    },
+    {
+      "run": "mnist_inv_seed1",
+      "status": "completed",
+      "updates": 9945,
+      "test_size": 10000,
+      "terminal_lr_used": 0.005958552920801206,
+      "metadata_note": "This source version recorded an unused generic final_lr default; used LR is lr_log.json.",
+      "final_acc": 99.05,
+      "recomputed_loss": 0.027498881912231446,
+      "accuracy_delta": 0.0
+    },
+    {
+      "run": "mnist_sc_seed1",
+      "status": "completed",
+      "updates": 1404,
+      "test_size": 10000,
+      "terminal_lr_used": 9.999999999992654e-07,
+      "metadata_note": null,
+      "final_acc": 99.1,
+      "recomputed_loss": 0.02349751116037369,
+      "accuracy_delta": 0.0
+    },
+    {
+      "run": "mnist_sc_cm_seed1",
+      "status": "completed",
+      "updates": 1404,
+      "test_size": 10000,
+      "terminal_lr_used": 9.999999999992654e-07,
+      "metadata_note": null,
+      "final_acc": 99.14,
+      "recomputed_loss": 0.02465488257408142,
+      "accuracy_delta": 0.0
+    },
+    {
+      "run": "r20_pc_seed1",
+      "status": "completed",
+      "updates": 80000,
+      "test_size": 10000,
+      "terminal_lr_used": 0.0035000000000000005,
+      "metadata_note": "This source version recorded an unused generic final_lr default; used LR is lr_log.json.",
+      "final_acc": 89.48,
+      "recomputed_loss": 0.41191595764160155,
+      "accuracy_delta": 0.0
+    },
+    {
+      "run": "r20_clr_seed1",
+      "status": "completed",
+      "updates": 20000,
+      "test_size": 10000,
+      "terminal_lr_used": 0.10028999999999998,
+      "metadata_note": null,
+      "final_acc": 91.06,
+      "recomputed_loss": 0.37033153381347655,
+      "accuracy_delta": 0.0
+    },
+    {
+      "run": "mnist_inv_seed2",
+      "status": "completed",
+      "updates": 9945,
+      "test_size": 10000,
+      "terminal_lr_used": 0.005958552920801206,
+      "metadata_note": null,
+      "final_acc": 99.05,
+      "recomputed_loss": 0.024945068883895874,
+      "accuracy_delta": 0.0
+    },
+    {
+      "run": "mnist_sc_seed2",
+      "status": "completed",
+      "updates": 1404,
+      "test_size": 10000,
+      "terminal_lr_used": 9.999999999992654e-07,
+      "metadata_note": null,
+      "final_acc": 99.2,
+      "recomputed_loss": 0.021250825476646425,
+      "accuracy_delta": 0.0
+    },
+    {
+      "run": "mnist_sc_cm_seed2",
+      "status": "completed",
+      "updates": 1404,
+      "test_size": 10000,
+      "terminal_lr_used": 9.999999999992654e-07,
+      "metadata_note": null,
+      "final_acc": 99.23,
+      "recomputed_loss": 0.022600016164779663,
+      "accuracy_delta": 0.0
+    },
+    {
+      "run": "r20_pc_seed2",
+      "status": "completed",
+      "updates": 80000,
+      "test_size": 10000,
+      "terminal_lr_used": 0.0035000000000000005,
+      "metadata_note": null,
+      "final_acc": 89.18,
+      "recomputed_loss": 0.40035462036132813,
+      "accuracy_delta": 0.0
+    },
+    {
+      "run": "r20_clr_seed2",
+      "status": "completed",
+      "updates": 20000,
+      "test_size": 10000,
+      "terminal_lr_used": 0.10028999999999998,
+      "metadata_note": null,
+      "final_acc": 91.51,
+      "recomputed_loss": 0.34155543212890627,
+      "accuracy_delta": 0.0
+    },
+    {
+      "run": "r56_clr_seed0",
+      "status": "completed",
+      "updates": 10000,
+      "test_size": 10000,
+      "terminal_lr_used": 0.10057999999999995,
+      "metadata_note": null,
+      "final_acc": 92.78,
+      "recomputed_loss": 0.2854381164550781,
+      "accuracy_delta": 0.0
+    },
+    {
+      "run": "r56_pc_seed0",
+      "status": "completed",
+      "updates": 80000,
+      "test_size": 10000,
+      "terminal_lr_used": 0.0035000000000000005,
+      "metadata_note": "This source version recorded an unused generic final_lr default; used LR is lr_log.json.",
+      "final_acc": 90.15,
+      "recomputed_loss": 0.4036621398925781,
+      "accuracy_delta": 0.0
+    },
+    {
+      "run": "r20_wd_1e-06",
+      "status": "completed",
+      "updates": 20000,
+      "test_size": 10000,
+      "terminal_lr_used": 0.10028999999999998,
+      "metadata_note": "This source version recorded an unused generic final_lr default; used LR is lr_log.json.",
+      "final_acc": 88.2,
+      "recomputed_loss": 0.9533184875488281,
+      "accuracy_delta": 0.0
+    },
+    {
+      "run": "r20_wd_0.0005",
+      "status": "completed",
+      "updates": 20000,
+      "test_size": 10000,
+      "terminal_lr_used": 0.10028999999999998,
+      "metadata_note": "This source version recorded an unused generic final_lr default; used LR is lr_log.json.",
+      "final_acc": 81.16,
+      "recomputed_loss": 0.5673093627929687,
+      "accuracy_delta": 0.0
+    },
+    {
+      "run": "r20_peak_1",
+      "status": "completed",
+      "updates": 20000,
+      "test_size": 10000,
+      "terminal_lr_used": 0.10009,
+      "metadata_note": null,
+      "final_acc": 90.37,
+      "recomputed_loss": 0.37601734313964846,
+      "accuracy_delta": 0.0
+    },
+    {
+      "run": "r20_peak_6",
+      "status": "completed",
+      "updates": 20000,
+      "test_size": 10000,
+      "terminal_lr_used": 0.10058999999999994,
+      "metadata_note": null,
+      "final_acc": 91.36,
+      "recomputed_loss": 0.35869605407714844,
+      "accuracy_delta": 0.0
+    },
+    {
+      "run": "r20_bn_0.001",
+      "status": "completed",
+      "updates": 20000,
+      "test_size": 10000,
+      "terminal_lr_used": 0.10028999999999998,
+      "metadata_note": null,
+      "final_acc": 9.03,
+      "recomputed_loss": 3.2039767822265626,
+      "accuracy_delta": 0.0
+    },
+    {
+      "run": "r20_subset_10000_clr",
+      "status": "completed",
+      "updates": 20000,
+      "test_size": 10000,
+      "terminal_lr_used": 0.10028999999999998,
+      "metadata_note": null,
+      "final_acc": 53.01,
+      "recomputed_loss": 1.4162778198242187,
+      "accuracy_delta": 0.0
+    },
+    {
+      "run": "r20_subset_10000_step",
+      "status": "completed",
+      "updates": 20000,
+      "test_size": 10000,
+      "terminal_lr_used": 0.0035000000000000005,
+      "metadata_note": null,
+      "final_acc": 70.91,
+      "recomputed_loss": 1.7697737915039062,
+      "accuracy_delta": 0.0
+    },
+    {
+      "run": "r20_subset_25000_clr",
+      "status": "completed",
+      "updates": 20000,
+      "test_size": 10000,
+      "terminal_lr_used": 0.10028999999999998,
+      "metadata_note": null,
+      "final_acc": 88.65,
+      "recomputed_loss": 0.4248065490722656,
+      "accuracy_delta": 0.0
+    },
+    {
+      "run": "r20_subset_25000_step",
+      "status": "completed",
+      "updates": 20000,
+      "test_size": 10000,
+      "terminal_lr_used": 0.0035000000000000005,
+      "metadata_note": null,
+      "final_acc": 85.44,
+      "recomputed_loss": 0.6410429443359374,
+      "accuracy_delta": 0.0
+    }
+  ],
+  "pending": [],
+  "complete": true,
+  "legacy_checkpoints": "see references/legacy and prior checkpoint_evaluation.json"
+}

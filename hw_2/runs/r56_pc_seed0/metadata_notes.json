@@ -1,0 +1,5 @@
+{
+  "note": "This source version recorded an unused generic final_lr default; used LR is lr_log.json.",
+  "terminal_lr_used": 0.0035000000000000005,
+  "source_sha256": "87b5b2837a266b4f8b6115726f10ef215cd9865e50189e5e2424ced45b080fea"
+}

@@ -1,0 +1,23 @@
+{
+  "reviewed_at_utc": "2026-10-10T20:47:40.187617+00:00",
+  "pdf_slides_reviewed": 16,
+  "primary_report_charts_reviewed": 10,
+  "range_and_secant_charts_reviewed": 3,
+  "pptx_geometry": "16 slides, 0 issues; native PowerPoint rendering was not performed",
+  "corrections": [
+    "single-seed graphs omit uncertainty claims",
+    "MNIST slide uses explicitly labeled zoom",
+    "secant chart uses log scale to show both aggregations",
+    "mixed loader RNG is disclosed for descriptive ablations",
+    "non-finite legacy evaluations do not appear as valid final accuracy"
+  ],
+  "status": "reviewed",
+  "presentation_style": "navy / teal / blue; large metrics, editable text and diagrams, charts redrawn from measured artifacts",
+  "presentation_checks": [
+    "16 matching PDF/PPTX slides",
+    "PPTX archive integrity",
+    "final metrics match measured results",
+    "PDF contact sheet inspected; dense results, sources and residual diagram inspected at full size"
+  ],
+  "submission_contains_document_generators": false
+}

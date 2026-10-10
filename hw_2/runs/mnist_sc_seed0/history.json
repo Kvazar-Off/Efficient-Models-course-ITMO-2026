@@ -1,0 +1,203 @@
+{
+  "config": {
+    "args": {
+      "dataset": "mnist",
+      "model": "lenet",
+      "policy": "onecycle",
+      "max_lr": 0.1,
+      "final_lr": 1e-06,
+      "pct_start": 0.4166666666666667,
+      "epochs": 12,
+      "iters": null,
+      "from_range_test": null,
+      "rule": 10.0,
+      "lr_select": "div25",
+      "stepsize": 10000,
+      "mom_max": null,
+      "mom_min": null,
+      "weight_decay": 0.0005,
+      "momentum": 0.9,
+      "no_nesterov": false,
+      "bn_momentum": 0.05,
+      "shortcut": "pad",
+      "batch_size": 512,
+      "subset": null,
+      "workers": 2,
+      "seed": 0,
+      "eval_every": 0,
+      "out": "/data/tsa/itmo/efficient_nn/runs/v2/mnist_sc_seed0",
+      "init_lr": 0.01,
+      "min_lr": 0.1,
+      "anneal_fraction": 0.16666666666666666,
+      "drop_iters": null,
+      "inv_gamma": 0.0001,
+      "inv_power": 0.75,
+      "normalization": "caffe",
+      "optimizer": "caffe",
+      "nesterov": false,
+      "device": "cuda",
+      "subset_seed": 0
+    },
+    "implementation": "v2",
+    "steps_per_epoch": 117,
+    "train_size": 60000,
+    "test_size": 10000,
+    "schedule": {
+      "max_lr": 0.1,
+      "total_iters": 1404,
+      "final_lr": 1e-06
+    },
+    "code_sha256": {
+      "verify_report2.py": "5d04d270ab9e06df7edbaecd259bd205ba0ca0f1015a1e2da009588428263590",
+      "make_presentation.py": "71cf539ebaa22980ff7a99ee722c5b364bda6baeee8ad6c0414ee42fddd175df",
+      "make_result_figs.py": "13379eff937d51011685f5fe2e89fbfd5bac1517108daa289c904db83261d069",
+      "check_solution.py": "366443214da1b2b93cb9f3d0cd4198ed2a78f684d14cac5af22b3fd7cfb160ec",
+      "lenet.py": "067b49e59ea8e6d7c1143ad57aea71d139c1d23c1f0ba1f24bc64bb17dc503a4",
+      "run_experiments.py": "8199257cff1e073c055e8c96831d526b79aa0066b01554c649c8b062f52d09a7",
+      "plot_results.py": "2f354acd37422b109766feb3f9a285290942a311292a059ba4122ddb37b42e85",
+      "range_test.py": "2cf19b035dbbef2f78867e5a4f1f825a5b10f3c26db550899094119df5f06c64",
+      "hessian_lr_est.py": "6b9a20a90440619d07b0838b4927289ac5a0b4ebaf4f0825935d1c4181888190",
+      "data.py": "5cc3cb35b34f36329c93c79213c8c9542ab04bf739597d5615413c064b3da0db",
+      "resnet.py": "6d60ad22372ce87aa59bb5e41c00daec37afcfd5a3cad2c9b3cb8c8c90b47c5a",
+      "train.py": "3086e7c55f3fc1ff503455cfac2d77d502a9915ba0d13626b9ef417a22614a0f",
+      "policies.py": "0a3c6ac2103c313c978db1ee2ed3843235387579076c2d95515b22ddb14bd602",
+      "fix_figures.py": "0fe8237daa3fc8f8bf951fd250736fd512979544cef358b4e8f524214967aca6",
+      "qa_pptx.py": "7e689d9310831dc0c27130ad53bad0c7745426c6b697fa4298952a0f9af038ec",
+      "make_report.py": "4dbcbd589ef68584887efcb874c39c45942ba1ab953d70ef67fed29b437feffe"
+    },
+    "torch_version": "2.14.1+cu126",
+    "device": "cuda",
+    "selection": "final fixed-budget checkpoint; test best is diagnostic only"
+  },
+  "history": [
+    {
+      "iter": 117,
+      "epoch": 1.0,
+      "train_loss": 0.49868929144154245,
+      "train_acc": 85.46006944444444,
+      "test_acc": 95.86,
+      "test_loss": 0.13732414779663085,
+      "lr": 0.027846153846153847,
+      "sec": 3.9534103870391846
+    },
+    {
+      "iter": 234,
+      "epoch": 2.0,
+      "train_loss": 0.1050695992178387,
+      "train_acc": 96.93676549145299,
+      "test_acc": 97.95,
+      "test_loss": 0.06586598434448242,
+      "lr": 0.04584615384615385,
+      "sec": 7.602904796600342
+    },
+    {
+      "iter": 351,
+      "epoch": 3.0,
+      "train_loss": 0.06421438766977726,
+      "train_acc": 97.98844818376068,
+      "test_acc": 98.35,
+      "test_loss": 0.052935027694702146,
+      "lr": 0.06384615384615384,
+      "sec": 10.839874982833862
+    },
+    {
+      "iter": 468,
+      "epoch": 4.0,
+      "train_loss": 0.046705418958877906,
+      "train_acc": 98.56436965811966,
+      "test_acc": 98.1,
+      "test_loss": 0.06130827941894531,
+      "lr": 0.08184615384615386,
+      "sec": 14.222970247268677
+    },
+    {
+      "iter": 585,
+      "epoch": 5.0,
+      "train_loss": 0.03664843317789909,
+      "train_acc": 98.84815705128206,
+      "test_acc": 98.9,
+      "test_loss": 0.033481733751296996,
+      "lr": 0.09984615384615385,
+      "sec": 17.788620471954346
+    },
+    {
+      "iter": 702,
+      "epoch": 6.0,
+      "train_loss": 0.02857956647650044,
+      "train_acc": 99.08520299145299,
+      "test_acc": 98.97,
+      "test_loss": 0.03400434780120849,
+      "lr": 0.08212328767123288,
+      "sec": 20.826687574386597
+    },
+    {
+      "iter": 819,
+      "epoch": 7.0,
+      "train_loss": 0.019695671147897713,
+      "train_acc": 99.38401442307692,
+      "test_acc": 99.07,
+      "test_loss": 0.026945128965377808,
+      "lr": 0.06409246575342466,
+      "sec": 24.532296180725098
+    },
+    {
+      "iter": 936,
+      "epoch": 8.0,
+      "train_loss": 0.012113872999086594,
+      "train_acc": 99.68783386752136,
+      "test_acc": 99.12,
+      "test_loss": 0.025882098531723022,
+      "lr": 0.04606164383561645,
+      "sec": 28.25672721862793
+    },
+    {
+      "iter": 1053,
+      "epoch": 9.0,
+      "train_loss": 0.008490648747493442,
+      "train_acc": 99.83306623931624,
+      "test_acc": 99.15,
+      "test_loss": 0.024554326593875884,
+      "lr": 0.028030821917808216,
+      "sec": 32.428406953811646
+    },
+    {
+      "iter": 1170,
+      "epoch": 10.0,
+      "train_loss": 0.006523602162527605,
+      "train_acc": 99.89483173076923,
+      "test_acc": 99.18,
+      "test_loss": 0.024313972520828248,
+      "lr": 0.01,
+      "sec": 36.06212568283081
+    },
+    {
+      "iter": 1287,
+      "epoch": 11.0,
+      "train_loss": 0.00568119680775632,
+      "train_acc": 99.92654914529915,
+      "test_acc": 99.18,
+      "test_loss": 0.02392314375638962,
+      "lr": 0.0050005,
+      "sec": 39.81097674369812
+    },
+    {
+      "iter": 1404,
+      "epoch": 12.0,
+      "train_loss": 0.0053333699858436985,
+      "train_acc": 99.93990384615384,
+      "test_acc": 99.23,
+      "test_loss": 0.023579745590686797,
+      "lr": 9.999999999992654e-07,
+      "sec": 43.11937856674194
+    }
+  ],
+  "best": {
+    "acc": 99.23,
+    "epoch": 12.0,
+    "iter": 1404
+  },
+  "status": "completed",
+  "error": null,
+  "completed_iters": 1404,
+  "total_sec": 43.14101767539978
+}

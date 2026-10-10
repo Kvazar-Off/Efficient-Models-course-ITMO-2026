@@ -1,0 +1,254 @@
+{
+  "measured_at": "2026-10-10T18:44:44Z",
+  "protocol": "FP32 ResNet20, batch 1000, channels_last, cached Caffe transforms, per-update finite guards",
+  "conditions": "shared GPUs; pre-existing training continues; short throughput benchmark, not accuracy evidence",
+  "benchmark_logs": "/tmp/efficient_nn_benchmark_g1u_q6bl",
+  "gpus": {
+    "0": {
+      "trials": [
+        {
+          "workers": 2,
+          "slots": 2,
+          "additional_processes": 0,
+          "updates_per_sec": 29.99943998444943,
+          "seconds": 15.000280013002339,
+          "background_updates": {
+            "r56_pc_seed0": 150,
+            "r20_pc_seed1": 300
+          },
+          "individual": []
+        },
+        {
+          "workers": 0,
+          "slots": 3,
+          "additional_processes": 1,
+          "updates_per_sec": 36.10071738468979,
+          "seconds": 15.955361602987978,
+          "background_updates": {
+            "r56_pc_seed0": 100,
+            "r20_pc_seed1": 200
+          },
+          "individual": [
+            {
+              "updates": 276,
+              "seconds": 15.010585216994514,
+              "updates_per_sec": 18.387024623631692
+            }
+          ]
+        },
+        {
+          "workers": 2,
+          "slots": 3,
+          "additional_processes": 1,
+          "updates_per_sec": 40.11122720979001,
+          "seconds": 16.055355190997943,
+          "background_updates": {
+            "r56_pc_seed0": 150,
+            "r20_pc_seed1": 200
+          },
+          "individual": [
+            {
+              "updates": 294,
+              "seconds": 15.04775471999892,
+              "updates_per_sec": 19.537798526797165
+            }
+          ]
+        },
+        {
+          "workers": 2,
+          "slots": 4,
+          "additional_processes": 2,
+          "updates_per_sec": 41.32372817127438,
+          "seconds": 15.971453428996028,
+          "background_updates": {
+            "r56_pc_seed0": 100,
+            "r20_pc_seed1": 150
+          },
+          "individual": [
+            {
+              "updates": 203,
+              "seconds": 15.01060089400562,
+              "updates_per_sec": 13.523775725798336
+            },
+            {
+              "updates": 207,
+              "seconds": 15.045696658999077,
+              "updates_per_sec": 13.758086760056399
+            }
+          ]
+        },
+        {
+          "workers": 2,
+          "slots": 5,
+          "additional_processes": 3,
+          "updates_per_sec": 42.758374518767056,
+          "seconds": 16.160576911002863,
+          "background_updates": {
+            "r56_pc_seed0": 50,
+            "r20_pc_seed1": 150
+          },
+          "individual": [
+            {
+              "updates": 163,
+              "seconds": 15.074183694989188,
+              "updates_per_sec": 10.813189178143215
+            },
+            {
+              "updates": 163,
+              "seconds": 15.061420909012668,
+              "updates_per_sec": 10.822352086479553
+            },
+            {
+              "updates": 165,
+              "seconds": 15.043919479998294,
+              "updates_per_sec": 10.967886408816295
+            }
+          ]
+        }
+      ],
+      "selected": {
+        "workers": 2,
+        "slots": 4,
+        "additional_processes": 2,
+        "updates_per_sec": 41.32372817127438,
+        "seconds": 15.971453428996028,
+        "background_updates": {
+          "r56_pc_seed0": 100,
+          "r20_pc_seed1": 150
+        },
+        "individual": [
+          {
+            "updates": 203,
+            "seconds": 15.01060089400562,
+            "updates_per_sec": 13.523775725798336
+          },
+          {
+            "updates": 207,
+            "seconds": 15.045696658999077,
+            "updates_per_sec": 13.758086760056399
+          }
+        ]
+      }
+    },
+    "1": {
+      "trials": [
+        {
+          "workers": 2,
+          "slots": 1,
+          "additional_processes": 0,
+          "updates_per_sec": 23.333083247791418,
+          "seconds": 15.000160771000083,
+          "background_updates": {
+            "r20_pc_seed0": 350
+          },
+          "individual": []
+        },
+        {
+          "workers": 0,
+          "slots": 2,
+          "additional_processes": 1,
+          "updates_per_sec": 40.73441475029503,
+          "seconds": 15.76062903899583,
+          "background_updates": {
+            "r20_pc_seed0": 250
+          },
+          "individual": [
+            {
+              "updates": 392,
+              "seconds": 15.001291344000492,
+              "updates_per_sec": 26.131083718787558
+            }
+          ]
+        },
+        {
+          "workers": 2,
+          "slots": 2,
+          "additional_processes": 1,
+          "updates_per_sec": 44.268050493485575,
+          "seconds": 16.0612448949978,
+          "background_updates": {
+            "r20_pc_seed0": 250
+          },
+          "individual": [
+            {
+              "updates": 461,
+              "seconds": 15.028621801000554,
+              "updates_per_sec": 30.674802127851017
+            }
+          ]
+        },
+        {
+          "workers": 2,
+          "slots": 3,
+          "additional_processes": 2,
+          "updates_per_sec": 45.72949286590564,
+          "seconds": 16.160249189008027,
+          "background_updates": {
+            "r20_pc_seed0": 200
+          },
+          "individual": [
+            {
+              "updates": 270,
+              "seconds": 15.051830063006491,
+              "updates_per_sec": 17.938018092802565
+            },
+            {
+              "updates": 269,
+              "seconds": 15.047051572008058,
+              "updates_per_sec": 17.877256465340967
+            }
+          ]
+        },
+        {
+          "workers": 2,
+          "slots": 4,
+          "additional_processes": 3,
+          "updates_per_sec": 47.30360538206341,
+          "seconds": 16.12984874699032,
+          "background_updates": {
+            "r20_pc_seed0": 200
+          },
+          "individual": [
+            {
+              "updates": 188,
+              "seconds": 15.032664974001818,
+              "updates_per_sec": 12.50609923956503
+            },
+            {
+              "updates": 187,
+              "seconds": 15.019843478003168,
+              "updates_per_sec": 12.450196320212317
+            },
+            {
+              "updates": 188,
+              "seconds": 15.044540529997903,
+              "updates_per_sec": 12.496227427161326
+            }
+          ]
+        }
+      ],
+      "selected": {
+        "workers": 2,
+        "slots": 3,
+        "additional_processes": 2,
+        "updates_per_sec": 45.72949286590564,
+        "seconds": 16.160249189008027,
+        "background_updates": {
+          "r20_pc_seed0": 200
+        },
+        "individual": [
+          {
+            "updates": 270,
+            "seconds": 15.051830063006491,
+            "updates_per_sec": 17.938018092802565
+          },
+          {
+            "updates": 269,
+            "seconds": 15.047051572008058,
+            "updates_per_sec": 17.877256465340967
+          }
+        ]
+      }
+    }
+  }
+}
